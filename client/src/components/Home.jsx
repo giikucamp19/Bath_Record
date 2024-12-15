@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div>Home calender</div>
+    <div>Home Calender</div>
   )
 }
