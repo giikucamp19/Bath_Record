@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const germs = () => {
+export const Germs = () => {
   return (
-    <div>germs</div>
+    <div>Germs</div>
   )
 }
