@@ -20,7 +20,7 @@ export const Germs = () => {
         {/* アイコンと菌の繁殖エリア */}
         <div className="relative w-32 h-32 rounded-full bg-blue-300 flex items-center justify-center">
           <span className="text-white text-lg font-semibold">Icon</span>
-          {Array.from({ length: germ }).map((_, index) => (
+          {Array.from({ length: germ }).map((index) => (
             <div
               key={index}
               className="absolute bg-yellow-900 rounded-full"
